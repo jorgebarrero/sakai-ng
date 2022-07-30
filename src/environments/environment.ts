@@ -3,8 +3,20 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-};
+    production: true,
+  
+    host: 'http://localhost',
+    // directusUrl: '',
+    directusUrl: 'https://grupoislasapi.julliet.io',
+    // UTILITY url
+    nestUrl: 'https://grupoislasgraph.julliet.io',
+    // Version
+    version: '1.0.0',
+    // Whether or not to enable debug mode
+    enableDebug: true,
+    // check
+    versionCheckURL: '',
+  };
 
 /*
  * For easier debugging in development mode, you can import the following file
